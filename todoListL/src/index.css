@@ -1,0 +1,26 @@
+body {
+  background-color: cornflowerblue;
+  color:aliceblue;
+}
+
+.myContainer {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%,-30);
+}
+
+.addButton {
+  border: none;
+  border-radius: 5px;
+  background-color: darkgreen;
+  color: whitesmoke;
+  font-size: 1rem;
+  margin: 5px;
+  padding: 5px;
+}
+
+.addButton:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
